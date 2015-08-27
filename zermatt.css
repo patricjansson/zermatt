@@ -17,7 +17,7 @@ html #jenkins #breadcrumbs LI {
  background-color: white; 
 }
 
-#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
+html #jenkins #breadcrumbs LI A:link, html #jenkins #breadcrumbs LI A:visited {
  color: #111; 
 }
 
@@ -33,6 +33,12 @@ html #jenkins #side-panel #buildQueue {
 html #jenkins #side-panel #executors {
   color: #666;
   font-size: 80%;
+}
+
+html #jenkins #systemmessage {
+ background-color: #fab919;
+ color: white;
+ padding: 5px;
 }
 
 html #jenkins #projectstatus {
