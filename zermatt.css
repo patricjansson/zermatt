@@ -1,0 +1,89 @@
+html #jenkins {
+  background-color: white;
+}
+
+html #jenkins #side-panel {
+  background-color: #f1f1f1;
+}
+
+html #jenkins #side-panel #buildQueue {
+  color: #666;
+  font-size: 80%;
+}
+
+html #jenkins #side-panel #executors {
+  color: #666;
+  font-size: 80%;
+}
+
+html #jenkins #projectstatus {
+  border:none;
+}
+html #jenkins #projectstatus td {
+  font-size: 15px;
+}
+
+html #jenkins #projectstatus .header {
+  background: #f1f1f1;
+}
+
+html #jenkins #projectstatus tr {
+  height: 3em;
+}
+
+html #jenkins #projectstatus tr.job-status-red {
+  background-color: #e4363e;
+  border-top: 1px solid #e88f93;
+  color: #fff;
+}
+
+html #jenkins #projectstatus tr.job-status-aborted {
+}
+
+html #jenkins #projectstatus tr.job-status-nobuilt td img {
+  display: none;
+}
+
+html #jenkins #projectstatus tr.job-status-nobuilt td .build-health-link img {
+  display: inline-block;
+}
+
+html #jenkins #projectstatus tr.job-status-disabled td a.model-link {
+  color: #aaa;
+}
+
+html #jenkins #projectstatus tr.job-status-disabled td img {
+  display: none;
+}
+
+html #jenkins #projectstatus tr.job-status-red {
+  background-color: #e4363e;
+  color: #fff;
+}
+
+html #jenkins #projectstatus tr.job-status-red td a.model-link {
+  color: #fff;
+}
+
+html #jenkins #projectstatus tr.job-status-blue img {
+  display: none;
+}
+
+html #jenkins #projectstatus tr.job-status-red td a.model-link {
+  color: #fff;
+}
+
+
+html #jenkins #projectstatus tr td a.model-link {
+  color: #666;
+}
+
+html #jenkins #projectstatus tr td a:first-child {
+    font-size: 15px;
+    text-decoration: none;
+    color: #24a0d8;
+}
+
+html #jenkins footer {
+  display: none;
+}
