@@ -5,10 +5,21 @@ html #jenkins {
   background-color: white;
 }
 
-html #jenkins #breadcrumbs {
-  background-color: white;
+html #jenkins #header {
+  background-color: #24a0d8;
 }
 
+html #jenkins #breadcrumbs {
+  background-color: #24a0d8;
+}
+
+html #jenkins #breadcrumbs LI {
+ background-color: white; 
+}
+
+#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
+ color: #111; 
+}
 
 html #jenkins #side-panel {
   background-color: #f1f1f1;
