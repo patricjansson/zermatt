@@ -44,7 +44,7 @@ html #jenkins #projectstatus tr.job-status-nobuilt td img {
   display: none;
 }
 
-html #jenkins #projectstatus tr.job-status-nobuilt td .build-health-link img {
+html #jenkins #projectstatus tr td .build-health-link img {
   display: inline-block;
 }
 
