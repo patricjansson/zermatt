@@ -1,6 +1,14 @@
+/*
+ A hack for making the Jenkins CI UI ...
+*/
 html #jenkins {
   background-color: white;
 }
+
+html #jenkins #breadcrumbs {
+  background-color: white;
+}
+
 
 html #jenkins #side-panel {
   background-color: #f1f1f1;
