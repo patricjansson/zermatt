@@ -118,6 +118,7 @@ html #jenkins #projectstatus tr td a:first-child {
 html #jenkins form[action="doRename"] {
  padding: 10px;
  background-color: #d85497;
+ color: #fff;
 }
 
 html #jenkins footer {
