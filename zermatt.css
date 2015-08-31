@@ -128,4 +128,5 @@ html #jenkins footer {
 html #jenkins .yui-button.primary button {
  background-color: #b0c92b;
  color: #fff;
+ border-color: #b0c92b;
 }
