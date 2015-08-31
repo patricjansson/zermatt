@@ -5,6 +5,14 @@ html #jenkins {
   background-color: white;
 }
 
+html #jenkins a:link {
+  text-decoration: none;
+}
+
+html #jenkins a:hover {
+  text-decoration: underline;
+}
+
 html #jenkins #header {
   background-color: #24a0d8;
 }
