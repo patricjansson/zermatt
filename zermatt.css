@@ -147,11 +147,11 @@ html #jenkins .setting-main .setting-input[name="name"] {
 html #jenkins .yui-button.primary button {
  background-color: #b0c92b;
  color: #fff;
- border-color: #b0c92b;
+ border-color: #95a92d;
 }
 
 html #jenkins #disable-project .yui-button.primary button {
  background-color: #f0a4a7;
  color: #111;
- border-color: #f0a4a7;
+ border-color: #cf7f83;
 }
