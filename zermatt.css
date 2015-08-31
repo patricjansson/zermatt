@@ -126,9 +126,12 @@ html #jenkins footer {
 }
 
 html #jenkins .setting-main .setting-input[name="name"] {
-  font-size: 2em;
+  font-size: 1.6em;
   border: none;
-  box-shadow: 0;
+  box-shadow: none;
+  color: #98ad29;
+  font-weight: bold;
+  padding: 0px;
 }
 
 html #jenkins .yui-button.primary button {
