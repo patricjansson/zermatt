@@ -124,3 +124,7 @@ html #jenkins form[action="doRename"] {
 html #jenkins footer {
   display: none;
 }
+
+html #jenkins .yui-button.primary button {
+ color: #b0c92b;
+}
