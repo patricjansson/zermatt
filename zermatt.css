@@ -66,10 +66,6 @@ html #jenkins #projectstatus .header {
   background: #f1f1f1;
 }
 
-html #jenkins #projectstatus tr {
-  height: 3em;
-}
-
 html #jenkins #projectstatus tr.job-status-red {
   background-color: #e4363e;
   border-top: 1px solid #e88f93;
