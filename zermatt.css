@@ -103,6 +103,7 @@ html #jenkins #projectstatus tr td a.model-link {
   color: #666;
 }
 
+
 html #jenkins #projectstatus tr td a:first-child {
     font-size: 15px;
     text-decoration: none;
@@ -127,6 +128,18 @@ html #jenkins .setting-main .setting-input[name="name"] {
   font-weight: bold;
   padding: 0px;
 }
+
+html #jenkins  form[name="createItem"] .setting-main .setting-input[name="name"] {
+  font-size: 1.6em;
+  border: none;
+  box-shadow: none;
+  color: #98ad29;
+  font-weight: bold;
+  padding: 0px;
+}
+
+
+createItem
 
 html #jenkins .yui-button.primary button {
  background-color: #b0c92b;
