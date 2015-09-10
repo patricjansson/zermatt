@@ -131,15 +131,12 @@ html #jenkins .setting-main .setting-input[name="name"] {
 
 html #jenkins  form[name="createItem"] .setting-main .setting-input[name="name"] {
   font-size: 1.6em;
-  border: none;
-  box-shadow: none;
-  color: #98ad29;
-  font-weight: bold;
-  padding: 0px;
+  box-shadow: 1px 1px 4px #666 inset;
+  background-color: #98ad29;
+  color: #fff;
+  font-weight: normal;
+  padding: 8px;
 }
-
-
-createItem
 
 html #jenkins .yui-button.primary button {
  background-color: #b0c92b;
