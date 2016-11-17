@@ -1,6 +1,6 @@
 /*
  A hack for making the Jenkins CI UI ...
- v: 1.0.2
+ v: 1.0.9
 */
 
 html #jenkins {
@@ -163,4 +163,47 @@ html #jenkins #disable-project .yui-button.primary button {
  background-color: #f0a4a7;
  color: #111;
  border-color: #cf7f83;
+}
+
+@media (max-width: 750px) {
+
+  html #jenkins #page-head {
+    display: none;
+  }
+  html #jenkins #side-panel {
+    display: none;
+  }
+
+  html #jenkins #projectstatus-tabBar {
+    display: none;
+  }
+  html #jenkins #view-message {
+    display: none;
+  }
+
+  html #jenkins #projectstatus .header {
+    display: none;
+  }
+  html #jenkins #projectstatus .job-status-blue {
+    display: none;
+  }
+  html #jenkins #projectstatus .job-status-disabled {
+    display: none;
+  }
+  html #jenkins #projectstatus .job-status-aborted {
+    display: none;
+  }
+  html #jenkins #projectstatus .job-status-nobuilt {
+    display: none;
+  }
+  html #jenkins #projectstatus .job-status-yellow {
+    display: none;
+  }
+  html #jenkins #projectstatus .icon-clock  {
+    display: none;
+  }
+  html #jenkins #projectstatus .icon-health-00to19  {
+    display: none;
+  }
+
 }
