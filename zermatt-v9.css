@@ -1,7 +1,25 @@
 /*
  A hack for making the Jenkins CI UI ...
- v: 1.0.2
+ v: 1.0.1
 */
+
+@keyframes progress-bar-stripes-fast {
+  0% {
+      background-position: -20000px 0px;
+  }
+  100% {
+      background-position: 0 0;
+  }
+}
+
+@keyframes progress-bar-stripes-slow {
+  0% {
+      background-position: -30px 0px;
+  }
+  100% {
+      background-position: 0 0;
+  }
+}
 
 html #jenkins {
   background-color: white;
@@ -54,7 +72,9 @@ html table.progress-bar {
 }
 
 html table.progress-bar td.progress-bar-done {
+  animation: 5s linear 0s normal none infinite running progress-bar-stripes-slow;
   background-color: #98ad29;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent);
 }
 
 html #jenkins #systemmessage {
@@ -105,6 +125,13 @@ html #jenkins #projectstatus tr.job-status-red {
   color: #fff;
 }
 
+html #jenkins #projectstatus tr.job-status-red-anime,
+html #jenkins #projectstatus tr.job-status-blue-anime {
+  animation: 90s linear 0s normal none infinite running progress-bar-stripes-fast;
+  background: rgba(0, 0, 0, 0) linear-gradient(130deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 10%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 50%) repeat scroll 0 0;
+}
+
+rgba(0, 0, 0, 0) linear-gradient(90deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent) repeat scroll 0 0
 
 html #jenkins #projectstatus tr.job-status-red td a.model-link {
   color: #fff;
